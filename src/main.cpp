@@ -39,7 +39,7 @@ void setup(void){
     // Initialize system upon power-up.
     serial_init();    // Setup serial connection
     eeprom_init();		// Initialize EEPROM
-    websocket_init(); // Setup websocket server
+    // websocket_init(); // Setup websocket server
     settings_init();  // Load Grbl settings from EEPROM
     stepper_init();   // Configure stepper pins and interrupt timers
     system_init();    // Configure pinout pins and pin-change interrupt

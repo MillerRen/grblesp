@@ -43,7 +43,7 @@
 
 #define GRBL_MSG_LEVEL MSG_LEVEL_INFO // what level of [MSG:....] do you want to see 0=all off
 
-#define ENABLE_SERIAL2SOCKET    // Enables socket serial communication
+// #define ENABLE_SERIAL2SOCKET    // Enables socket serial communication
 
 // Define realtime command special characters. These characters are 'picked-off' directly from the
 // serial read data stream and are not passed to the grbl line execution parser. Select characters
